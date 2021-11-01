@@ -1,0 +1,25 @@
+version: "3.9"
+services:
+  validator:
+    build:
+      context: ./
+      dockerfile: Dockerfile
+    image: nazar/localtest:v1.7.14
+    ports:
+      - "1024:1024"
+      - "1027:1027"
+      - "8899:8899"
+      - "8900:8900"
+      - "3000:3000"
+    volumes:
+      - test-data:/test-data
+      - ./json:/test-data/json
+  # metaplex:
+  #   build:
+  #     context: ./metaplex
+  #     dockerfile: Dockerfile
+  #   image: nazar/metaplex
+  #   ports:
+  #     - "3000:3000"
+volumes:
+  test-data: {}

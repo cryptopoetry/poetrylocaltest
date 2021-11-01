@@ -1,0 +1,15 @@
+--- a/js/packages/common/src/contexts/connection.tsx
++++ b/js/packages/common/src/contexts/connection.tsx
+@@ -65,6 +65,11 @@ export const ENDPOINTS = [
+     endpoint: clusterApiUrl('devnet'),
+     ChainId: ChainId.Devnet,
+   },
++  {
++    name: 'localnet' as ENV,
++    endpoint: 'http://localhost:8899',
++    ChainId: 104 as ChainId,
++  },
+ ];
+ 
+ const DEFAULT = ENDPOINTS[0].endpoint;
+

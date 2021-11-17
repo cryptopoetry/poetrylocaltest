@@ -1,6 +1,9 @@
-Publisher (on behalf of artists): NFT content author/owner. They will share revenues and royalties with artists offline.
-CP (Crypto Poetry) - this is us: We help the Publisher to mint NFTs and facilitate their sale in our marketplace (store). We share the initial revnue and future royalties.
-Creators: Publisher + CP (Only two in first version)
+Publisher (on behalf of artists): NFT content author/owner. They will share revenues and royalties with artists offline. 
+
+CP (Crypto Poetry) - this is us: We help the Publisher to mint NFTs and facilitate their sale in our marketplace (store). We share the initial revnue and future royalties. 
+
+Creators: Publisher + CP (Only two in first version) 
+
 Buyer: The party that purchases NFTs and actually pays the price for it
 
 
